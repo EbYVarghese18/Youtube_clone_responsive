@@ -50,14 +50,23 @@ nav{
 .nav-mid .searchbar{
     background: #3a3737;
 }
+
 .nav-mid .searchbar input{
     width: 500px;
     padding-left: 7px;
     font-size: 15px;
     background: #1d1d1f;
-    border:solid;
-    border-color: #3a3737   ;
+    border:1px solid;
+    border-color: #3a3737;
     height: 38px;
+    font-size: 16px;
+    color: aliceblue;
+}
+.nav-mid input:focus{
+    outline:none;
+    border: solid 1px;  
+    border-color: rgb(70, 153, 248); 
+   
 }
 .nav-mid .sidebaricon{
     height: 22px;
@@ -72,14 +81,12 @@ nav{
 
 /* -----sidebar-------- */
 
-
 .sidebar{
     background: #27272a;
     width: 5.5%;
     height: 100vh;
     position: fixed;
     padding-top: 18px;
-
 }
 .sidebar p{
     font-size: 10px;
@@ -92,7 +99,6 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .shortcuts a .sidebarimages{
     height: 23px;
@@ -266,7 +272,6 @@ nav{
     outline: 0;
     cursor: pointer;
 }
-
 @media(max-width:900px){
     .playvedio{
         flex-basis: 100%;
