@@ -21,7 +21,7 @@ nav{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     position: sticky;   
     top: 0;
-    background: #27272a;
+    background: #202020;
     z-index: 10;
 }
 
@@ -48,16 +48,16 @@ nav{
 }
 
 .nav-mid .searchbar{
-    background: #3a3737;
+    background: #363636;
 }
 
 .nav-mid .searchbar input{
     width: 500px;
     padding-left: 7px;
     font-size: 15px;
-    background: #1d1d1f;
+    background: #121212;
     border:1px solid;
-    border-color: #3a3737;
+    border-color: #363636;
     height: 38px;
     font-size: 16px;
     color: aliceblue;
@@ -75,14 +75,14 @@ nav{
 }
 .nav-right .sidebaricon{
     height: 22px;
-    margin-right: 30px;
+    margin-right: 25px;
     
 }
 
 /* -----sidebar-------- */
 
 .sidebar{
-    background: #27272a;
+    background: #202020;
     width: 5.5%;
     height: 100vh;
     position: fixed;
@@ -108,7 +108,7 @@ nav{
 /* main */
 
 .container{
-    background: #1d1d1f;
+    background: #181818;
     padding-left: 8%;
     padding-right: 3%;
     padding-top: 20px;
